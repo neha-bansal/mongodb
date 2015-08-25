@@ -8,7 +8,7 @@
 		<version>1.0.0</version>
 		<relativePath>..</relativePath>
 	</parent>
-	
+
 	<artifactId>M101J</artifactId>
 	<packaging>jar</packaging>
 
@@ -40,6 +40,17 @@
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 			<version>2.3.20</version>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+			<version>1.7.9</version>
 		</dependency>
 
 	</dependencies>
