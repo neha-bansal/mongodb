@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+version = '1.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.mongodb.morphia:morphia:0.105"
+    
+    compile "org.mongodb:mongo-java-driver:2.11.3"
+    
+    testCompile group: 'org.testng', name: 'testng', version: '6.8.7'
+}
