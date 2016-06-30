@@ -15,6 +15,7 @@
 	<modules>
 		<module>M101J</module>
 		<module>morphia-demo</module>
+		<module>replication-demo</module>
     </modules>
     
     <properties>
